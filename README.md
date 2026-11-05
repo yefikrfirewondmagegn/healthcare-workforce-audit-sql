@@ -10,12 +10,12 @@ This project demonstrates a complete data cleaning, validation, and statistical 
 
 ## Project Structure
 - `data/` – Original and cleaned datasets
-- `sql/` – SQL data cleaning and audit script
 - `r_analysis/` – R analysis script, statistical results, and analysis summary
 - `r_analysis/plots/` – Four statistical visualizations
 - `screenshots/` – Five screenshots showing SQL, RStudio, and project folder structure
+- ` sql/` – SQL data cleaning, auditing, and validation script.
+- `README.md` – Project overview, tools, methodology, and results
   
-## Statistical Analysis
 The analysis includes:
 - Descriptive statistics
 - Department and profession distributions

@@ -9,11 +9,33 @@ This project demonstrates a complete data cleaning, validation, and statistical 
 - CSV – Dataset storage
 
 ## Project Structure
-- `data/` – Original and cleaned datasets
-- `sql/` – SQL data cleaning and audit script
-- `r_analysis/` – R analysis script and statistical results
-- `r_analysis/plots/` – Four statistical visualizations
-- `screenshots/` – Evidence of SQL and RStudio work
+healthcare-workforce-audit/
+│
+├── data/
+│   ├── healthcare_workforce_original.csv
+│   └── healthcare_workforce_cleaned.csv
+│
+├── r_analysis/
+│   ├── plots/
+│   │   ├── average_burnout_by_department.png
+│   │   ├── burnout_categories.png
+│   │   ├── burnout_distribution.png
+│   │   └── hours_vs_burnout.png
+│   ├── healthcare_workforce_analysis.R
+│   ├── statistical_analysis_summary.txt
+│   └── statistical_results.txt
+│
+├── screenshots/
+│   ├── mysql_cleaning.png
+│   ├── mysql_validation.png
+│   ├── project_structure.png
+│   ├── rstudio_plots.png
+│   └── rstudio_script.png
+│
+├── sql/
+│   └── healthcare_workforce_audit.sql
+│
+└── README.md
 
 ## Statistical Analysis
 The analysis includes:

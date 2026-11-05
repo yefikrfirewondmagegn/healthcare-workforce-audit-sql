@@ -1,0 +1,44 @@
+Healthcare Workforce Data Analysis
+
+Dataset size:
+[1] 120  12
+
+Burnout score summary:
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  3.100   4.700   6.200   6.282   8.000   9.700 
+
+Department distribution:
+
+ Emergency        ICU  Neurology   Oncology Pediatrics 
+        40         34          8         16         22 
+
+Profession distribution:
+
+Administrator        Doctor     Lab Staff         Nurse 
+           13            43            13            51 
+
+Burnout category distribution:
+
+  Higher (project-defined)    Lower (project-defined) 
+                        45                         20 
+Moderate (project-defined) 
+                        55 
+
+Correlation results:
+
+	Pearson's product-moment correlation
+
+data:  healthcare$shift_hours_per_week and healthcare$burnout_score
+t = 0.029609, df = 118, p-value = 0.9764
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.1766019  0.1818782
+sample estimates:
+        cor 
+0.002725738 
+
+
+ANOVA results:
+             Df Sum Sq Mean Sq F value Pr(>F)
+department    4   15.9   3.966   0.993  0.415
+Residuals   115  459.4   3.995               

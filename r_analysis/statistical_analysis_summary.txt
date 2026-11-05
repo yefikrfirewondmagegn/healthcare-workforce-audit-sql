@@ -1,0 +1,111 @@
+# HEALTHCARE WORKFORCE DATA ANALYSIS
+## Statistical Findings and Business Interpretation
+
+ 1. Project Overview
+
+This project analyzes healthcare workforce data to examine employee burnout patterns, working hours, and differences across hospital departments.
+
+The analysis was conducted using RStudio.
+
+Dataset overview:
+- Total observations: 120 healthcare workers
+- Total variables: 12
+- Professions: Nurses, Doctors, Administrators, and Laboratory Staff
+- Departments: Emergency, ICU, Neurology, Oncology, and Pediatrics
+
+ 2. Workforce Composition
+
+The dataset contains:
+- Nurses: 51 (42.5%)
+- Doctors: 43 (35.8%)
+- Administrators: 13 (10.8%)
+- Laboratory Staff: 13 (10.8%)
+
+This provides a workforce sample representing four different professional groups.
+
+ 3. Burnout Score Analysis
+
+The descriptive statistical analysis produced the following results:
+
+- Average burnout score: 6.28
+- Median burnout score: 6.20
+- Minimum score: 3.10
+- Maximum score: 9.70
+
+The average burnout score was approximately 6.28. Scores varied across the workforce, indicating differences in reported burnout levels.
+
+ 4. Burnout Category Analysis
+
+Based on the project's defined burnout categories:
+
+- Higher burnout: 45 workers (37.5%)
+- Moderate burnout: 55 workers (45.8%)
+- Lower burnout: 20 workers (16.7%)
+
+The moderate category represented the largest proportion of the workforce. Meanwhile, 37.5% of workers were classified in the higher burnout category.
+
+These categories are project-defined classifications and should not be interpreted as clinical diagnoses.
+
+ 5. Working Hours and Burnout Relationship
+
+A Pearson correlation test was conducted to investigate the relationship between weekly working hours and burnout scores.
+
+Results:
+- Correlation coefficient: 0.0027
+- P-value: 0.9764
+- Significance level: 0.05
+
+Interpretation:
+
+The analysis identified virtually no linear correlation between weekly working hours and burnout scores.
+
+The p-value exceeded the 0.05 significance threshold, indicating that the observed relationship was not statistically significant.
+
+This suggests that working hours alone may not adequately explain differences in burnout scores within this dataset.
+
+ 6. Departmental Burnout Comparison
+
+A one-way Analysis of Variance (ANOVA) was conducted to examine whether average burnout scores differed across the five departments.
+
+Results:
+- F-statistic: 0.993
+- P-value: 0.415
+- Significance level: 0.05
+
+Interpretation:
+
+The analysis did not identify statistically significant differences in average burnout scores across the five departments.
+
+The observed departmental differences were not statistically significant at the 5% significance level.
+
+ 7. Key Findings
+
+1. Moderate burnout was the most common project-defined category, representing 45.8% of workers.
+2. Approximately 37.5% of workers were classified in the higher burnout category.
+3. Weekly working hours showed virtually no linear correlation with burnout scores.
+4. No statistically significant differences in average burnout scores were identified across departments.
+
+ 8. Business Implications
+
+The findings highlight the importance of monitoring employee well-being across healthcare departments and professional groups.
+
+Healthcare organizations could investigate additional factors such as workload, staffing levels, working conditions, management support, and employee satisfaction to better understand burnout.
+
+The results suggest that relying exclusively on working hours or departmental differences may provide an incomplete picture of employee burnout.
+
+ 9. Limitations
+
+- The dataset contains 120 observations and may not represent the entire healthcare workforce.
+- Burnout categories were defined for this project and are not clinical classifications.
+- Correlation does not establish causation.
+- The analysis examines selected variables and does not account for every potential factor associated with burnout.
+
+ 10. Tools Used
+
+- MySQL Workbench: Data cleaning, standardization, validation, and SQL analysis.
+- RStudio: Statistical analysis, hypothesis testing, and data visualization.
+- R: Descriptive statistics, Pearson correlation, and one-way ANOVA.
+
+Project conclusion:
+
+This project demonstrates an end-to-end data analysis workflow, from raw workforce data cleaning and validation to statistical investigation, visualization, and communicating findings through business-oriented interpretations.

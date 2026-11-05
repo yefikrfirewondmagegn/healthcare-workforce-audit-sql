@@ -1,0 +1,121 @@
+id,profession,department,shift_hours_per_week,burnout_score,workload_category,burnout_category,high_burnout_flag,shift_hours_original_status,shift_hours_cleaning_action,shift_hours_original_value,shift_hours_imputation_method
+1,Nurse,Neurology,38.00,4.1,"Up to 40 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+2,Doctor,Oncology,53.00,7.8,"41-60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+3,Doctor,Neurology,44.00,4.2,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+4,Doctor,Emergency,44.00,5,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+5,Nurse,ICU,47.75,8.3,"41-60 hours","Higher (project-defined)",Yes,Missing,"Missing value imputed using department average",Missing,"Department average imputation"
+6,Doctor,Emergency,28.00,3.3,"Up to 40 hours","Lower (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+7,Nurse,ICU,47.75,9.5,"41-60 hours","Higher (project-defined)",Yes,"Zero - review","Zero value replaced with department average after review",0.0,"Department average imputation"
+8,Administrator,Oncology,52.00,6,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+9,Doctor,Emergency,47.77,9.2,"41-60 hours","Higher (project-defined)",Yes,Missing,"Missing value imputed using department average",Missing,"Department average imputation"
+10,Doctor,Pediatrics,43.00,6.5,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+11,Nurse,ICU,52.00,9.3,"41-60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+12,Doctor,Emergency,47.77,5.2,"41-60 hours","Moderate (project-defined)",No,"Zero - review","Zero value replaced with department average after review",0.0,"Department average imputation"
+13,Nurse,ICU,58.00,5.4,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+14,Doctor,Emergency,55.00,8,"41-60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+15,"Lab Staff",ICU,58.00,3.8,"41-60 hours","Lower (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+16,"Lab Staff",Pediatrics,48.00,5.2,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+17,Nurse,Pediatrics,45.00,6.2,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+18,Doctor,Pediatrics,64.00,6.4,"Over 60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+19,Nurse,Emergency,47.77,3.7,"41-60 hours","Lower (project-defined)",No,Missing,"Missing value imputed using department average",Missing,"Department average imputation"
+20,Doctor,Pediatrics,53.00,6.5,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+21,Administrator,ICU,42.00,3.5,"41-60 hours","Lower (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+22,Doctor,ICU,57.00,8.5,"41-60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+23,Nurse,Oncology,63.00,9.1,"Over 60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+24,Doctor,ICU,51.00,5.9,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+25,"Lab Staff",Oncology,53.27,6.5,"41-60 hours","Moderate (project-defined)",No,Missing,"Missing value imputed using department average",Missing,"Department average imputation"
+26,Nurse,ICU,54.00,5.2,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+27,Nurse,Pediatrics,48.00,9.6,"41-60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+28,Administrator,Emergency,110.00,3.3,"Over 60 hours","Lower (project-defined)",No,"Over 90 - review","Flagged for Review - Retained",NULL,NULL
+29,Nurse,Emergency,47.77,4.9,"41-60 hours","Moderate (project-defined)",No,"Zero - review","Zero value replaced with department average after review",0.0,"Department average imputation"
+30,Administrator,ICU,40.00,6.3,"Up to 40 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+31,Administrator,ICU,42.00,8,"41-60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+32,Nurse,Pediatrics,57.00,6.6,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+33,Doctor,Oncology,67.00,3.1,"Over 60 hours","Lower (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+34,Nurse,ICU,58.00,4.2,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+35,Nurse,Emergency,46.00,3.8,"41-60 hours","Lower (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+36,Administrator,Oncology,41.00,7.5,"41-60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+37,"Lab Staff",Emergency,46.00,9.1,"41-60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+38,Administrator,Pediatrics,47.00,5.4,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+39,Nurse,Oncology,56.00,3.6,"41-60 hours","Lower (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+40,Doctor,Oncology,62.00,3.1,"Over 60 hours","Lower (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+41,Doctor,Pediatrics,50.47,4.1,"41-60 hours","Moderate (project-defined)",No,Missing,"Missing value imputed using department average",Missing,"Department average imputation"
+42,Nurse,Pediatrics,57.00,4.6,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+43,Doctor,Pediatrics,40.00,8.8,"Up to 40 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+44,Nurse,Emergency,109.00,7.3,"Over 60 hours","Higher (project-defined)",Yes,"Over 90 - review","Flagged for Review - Retained",NULL,NULL
+45,Doctor,ICU,59.00,6,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+46,Nurse,Pediatrics,49.00,8.9,"41-60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+47,Doctor,Emergency,49.00,4.9,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+48,"Lab Staff",Pediatrics,51.00,5.2,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+49,Nurse,Emergency,47.00,4.3,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+50,Doctor,Emergency,45.00,5.7,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+51,"Lab Staff",Neurology,53.17,4.4,"41-60 hours","Moderate (project-defined)",No,"Zero - review","Zero value replaced with department average after review",0.0,"Department average imputation"
+52,Nurse,Emergency,39.00,8.8,"Up to 40 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+53,Doctor,Pediatrics,38.00,5,"Up to 40 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+54,Nurse,ICU,38.00,3.5,"Up to 40 hours","Lower (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+55,Nurse,ICU,54.00,3.2,"41-60 hours","Lower (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+56,Nurse,Emergency,40.00,9.7,"Up to 40 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+57,"Lab Staff",Oncology,45.00,3.3,"41-60 hours","Lower (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+58,Doctor,Emergency,44.00,9.6,"41-60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+59,Nurse,Oncology,57.00,5.8,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+60,Nurse,ICU,48.00,5.9,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+61,Nurse,ICU,45.00,3.5,"41-60 hours","Lower (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+62,Nurse,Pediatrics,50.47,9.2,"41-60 hours","Higher (project-defined)",Yes,"Zero - review","Zero value replaced with department average after review",0.0,"Department average imputation"
+63,Nurse,ICU,115.00,7.5,"Over 60 hours","Higher (project-defined)",Yes,"Over 90 - review","Flagged for Review - Retained",NULL,NULL
+64,Doctor,Neurology,71.00,5.9,"Over 60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+65,Doctor,Emergency,60.00,3.1,"41-60 hours","Lower (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+66,Doctor,ICU,47.75,8.8,"41-60 hours","Higher (project-defined)",Yes,Missing,"Missing value imputed using department average",Missing,"Department average imputation"
+67,Nurse,Emergency,106.00,8.5,"Over 60 hours","Higher (project-defined)",Yes,"Over 90 - review","Flagged for Review - Retained",NULL,NULL
+68,Doctor,Emergency,46.00,3.1,"41-60 hours","Lower (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+69,Administrator,Emergency,55.00,7.7,"41-60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+70,Nurse,Neurology,53.00,8.4,"41-60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+71,Nurse,Emergency,59.00,8.5,"41-60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+72,"Lab Staff",Pediatrics,38.00,4.9,"Up to 40 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+73,Doctor,Emergency,47.77,7.2,"41-60 hours","Higher (project-defined)",Yes,Missing,"Missing value imputed using department average",Missing,"Department average imputation"
+74,Doctor,Pediatrics,55.00,7.6,"41-60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+75,Doctor,ICU,39.00,9.4,"Up to 40 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+76,Doctor,Emergency,63.00,6.7,"Over 60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+77,Nurse,Emergency,43.00,4.7,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+78,Nurse,Oncology,53.00,4.6,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+79,Nurse,Pediatrics,56.00,6.4,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+80,Nurse,ICU,94.00,3.1,"Over 60 hours","Lower (project-defined)",No,"Over 90 - review","Flagged for Review - Retained",NULL,NULL
+81,Administrator,ICU,27.00,9.5,"Up to 40 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+82,Administrator,Emergency,32.00,5.2,"Up to 40 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+83,Nurse,Oncology,45.00,8.4,"41-60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+84,Doctor,Emergency,47.77,6.7,"41-60 hours","Moderate (project-defined)",No,"Zero - review","Zero value replaced with department average after review",0.0,"Department average imputation"
+85,Nurse,Oncology,56.00,3.7,"41-60 hours","Lower (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+86,Doctor,Pediatrics,50.47,8.6,"41-60 hours","Higher (project-defined)",Yes,"Zero - review","Zero value replaced with department average after review",0.0,"Department average imputation"
+87,Nurse,ICU,109.00,7,"Over 60 hours","Moderate (project-defined)",No,"Over 90 - review","Flagged for Review - Retained",NULL,NULL
+88,"Lab Staff",Oncology,63.00,9.2,"Over 60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+89,Nurse,Emergency,26.00,7.8,"Up to 40 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+90,Doctor,Emergency,46.00,4.7,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+91,Nurse,Emergency,56.00,8.1,"41-60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+92,Nurse,ICU,55.00,6.2,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+93,Doctor,Emergency,31.00,3.3,"Up to 40 hours","Lower (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+94,Administrator,Neurology,55.00,7.7,"41-60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+95,Doctor,ICU,41.00,8,"41-60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+96,Administrator,Neurology,53.17,5.7,"41-60 hours","Moderate (project-defined)",No,"Zero - review","Zero value replaced with department average after review",0.0,"Department average imputation"
+97,Doctor,Emergency,65.00,7.4,"Over 60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+98,Nurse,ICU,36.00,6.1,"Up to 40 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+99,Doctor,ICU,42.00,7.1,"41-60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+100,Doctor,ICU,47.75,9.4,"41-60 hours","Higher (project-defined)",Yes,"Zero - review","Zero value replaced with department average after review",0.0,"Department average imputation"
+101,Nurse,Emergency,37.00,5.8,"Up to 40 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+102,"Lab Staff",Emergency,51.00,5.6,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+103,Nurse,Emergency,43.00,3.3,"41-60 hours","Lower (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+104,Doctor,ICU,47.75,7.7,"41-60 hours","Higher (project-defined)",Yes,"Zero - review","Zero value replaced with department average after review",0.0,"Department average imputation"
+105,Nurse,Pediatrics,51.00,7,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+106,Nurse,Oncology,42.00,4.7,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+107,Doctor,ICU,43.00,8.1,"41-60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+108,Doctor,ICU,47.75,6.4,"41-60 hours","Moderate (project-defined)",No,Missing,"Missing value imputed using department average",Missing,"Department average imputation"
+109,Nurse,Oncology,44.00,5.9,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+110,"Lab Staff",Pediatrics,75.00,9.1,"Over 60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+111,Nurse,Neurology,58.00,3.6,"41-60 hours","Lower (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+112,Nurse,Emergency,70.00,9.2,"Over 60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+113,Doctor,Emergency,48.00,8.7,"41-60 hours","Higher (project-defined)",Yes,"Within review range","Original value retained",NULL,NULL
+114,"Lab Staff",ICU,47.75,7.2,"41-60 hours","Higher (project-defined)",Yes,Missing,"Missing value imputed using department average",Missing,"Department average imputation"
+115,Doctor,ICU,64.00,5.3,"Over 60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+116,Nurse,Emergency,66.00,4.2,"Over 60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+117,Nurse,Emergency,41.00,6.5,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+118,Administrator,Pediatrics,44.00,5.4,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+119,Doctor,Emergency,60.00,5.4,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
+120,"Lab Staff",ICU,43.00,6.3,"41-60 hours","Moderate (project-defined)",No,"Within review range","Original value retained",NULL,NULL
